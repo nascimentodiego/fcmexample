@@ -243,6 +243,37 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27511965077:android:0712e6b01fc42c9c",
+        "android_client_info": {
+          "package_name": "br.com.dfn.fcmexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27511965077-f55rkokltdbik45l7g0a1o4k2il7crj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwY23mQr8vOZY4kIDUalg9mQcCHCuXPR8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"

@@ -21,7 +21,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
         // TODO: Implement this method to send any registration to your app's servers.
         //sendRegistrationToServer(refreshedToken);
-        Toast.makeText(MyFirebaseInstanceIDService.this, "Token: " + refreshedToken , Toast.LENGTH_SHORT).show();
+
 
     }
 }

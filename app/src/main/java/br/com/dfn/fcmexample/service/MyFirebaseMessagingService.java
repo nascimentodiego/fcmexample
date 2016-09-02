@@ -5,6 +5,8 @@ import android.util.Log;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
+import br.com.dfn.fcmexample.Notification;
+
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     private static String TAG = MyFirebaseMessagingService.class.getName();
@@ -17,6 +19,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         // message, here is where that should be initiated. See sendNotification method below.
         Log.d(TAG, "From: " + remoteMessage.getFrom());
         Log.d(TAG, "Notification Message Body: " + remoteMessage.getNotification().getBody());
+
+        Notification.showNotification(Notification.NOTIFICATION_ID_FCM,
+                remoteMessage.getNotification().getBody(),
+                "Firebase Cloud Messaging...");
     }
 
 }
